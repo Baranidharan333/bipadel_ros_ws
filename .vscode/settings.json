@@ -1,0 +1,32 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/baranidharan/mini_project_ihub/install/bipadel/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/wk_space/install/myrobot_bringup/local/lib/python3.10/dist-packages",
+        "/home/baranidharan/ihub/ros/wk_space/install/lifecycle_number_publisher/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/wk_space/install/learn_ws/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/turtlesim_spiral_action/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/turtlesim_spiral_action_interface/local/lib/python3.10/dist-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/robot_urdf/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/learn/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/my_robot_bringup/local/lib/python3.10/dist-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/fake_laserscan_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/baranidharan/mini_project_ihub/install/bipadel/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/wk_space/install/myrobot_bringup/local/lib/python3.10/dist-packages",
+        "/home/baranidharan/ihub/ros/wk_space/install/lifecycle_number_publisher/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/wk_space/install/learn_ws/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/turtlesim_spiral_action/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/turtlesim_spiral_action_interface/local/lib/python3.10/dist-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/robot_urdf/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/learn/lib/python3.10/site-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/my_robot_bringup/local/lib/python3.10/dist-packages",
+        "/home/baranidharan/ihub/ros/workspace/install/fake_laserscan_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/baranidharan/mini_project_ihub/src/bipadel_robot_bringup"
+}
