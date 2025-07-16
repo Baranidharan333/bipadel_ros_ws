@@ -35,6 +35,7 @@ class UDPReceiverNode(Node):
     def parse_data(self, data):
         if "Accel:" in data and "Gyro:" in data:
             match = re.search(r"Accel:\(([^)]+)\),Gyro:\(([^)]+)\)", data)
+
             if match:
                 accel = tuple(map(float, match.group(1).split(',')))
                 gyro = tuple(map(float, match.group(2).split(',')))
@@ -42,6 +43,7 @@ class UDPReceiverNode(Node):
                 msg = Imu()
                 msg.accel_x, msg.accel_y, msg.accel_z = accel
                 msg.gyro_x, msg.gyro_y, msg.gyro_z = gyro
+                print(msg)
                 self.imu_pub.publish(msg)
                 # print(msg)
 
